@@ -125,6 +125,10 @@ body {
 }
 
 /* Our work+Our team */
+.our-team {
+  background-color: var(--our-team-bg-cl);
+}
+
 .our-work-title,
 .team-title {
   font-weight: 700;
@@ -134,7 +138,7 @@ body {
   color: var(--maim-txt-cl);
 }
 
-.our-team {
+.our-team-txt {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -185,4 +189,8 @@ body {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-adress {
+  font-style: normal;
 }
